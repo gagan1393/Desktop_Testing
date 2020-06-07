@@ -20,7 +20,6 @@ public class JMstudio
 	public void setup()
 	{
 		DesiredCapabilities caps = new DesiredCapabilities();
-		caps.setCapability("app", "C:\\Program Files (x86)\\Exor\\4.0.0.100\\HMIStudio.exe");
 		//caps.setCapability("appArguments", "/e");
 		caps.setCapability("platformname", "Windows");
 		caps.setCapability("deviceName", "WindowsPC");
